@@ -1,0 +1,358 @@
+
+
+header {
+    background-image: url("img/1.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 100vh; 
+}
+
+nav {
+    padding-top: 0px ;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    position: fixed;
+    
+    
+}
+
+
+.logo {
+    padding-left: 10px;
+    margin-right: auto; 
+    font-weight: 1000;
+    font-size: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    background-image: linear-gradient(to right, rgb(78, 0, 195), rgb(204, 0, 255));
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 300px;
+    padding: 0;
+    display: flex;
+    align-items: center; 
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+    font-size: 30px;
+    padding-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit; 
+}
+nav a:hover {
+    color: #007bff;
+    
+}
+
+button.login {
+    padding: 10px 10px; 
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(78, 0, 195); 
+    color: white; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left:150px ;
+}
+
+button.login:hover {
+    background-color: #89e7ff; 
+}
+
+.dhomecontent{
+    max-width: 890px; 
+    margin-top: 1px; 
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    background-color: #FFFFFF; 
+    padding-top: 170px;
+    border-radius: 10px; 
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.1);
+}
+div h1.homecontent{
+    padding-top:100px;
+    font-size: 90px;
+    width: 1000px;
+}
+
+div p.homecontent{
+    font-size: 40px;   
+}
+
+button.expl {
+    padding: 10px 20px;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000; 
+    color: #ffffff; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    margin: 0 auto; 
+    margin-left: 300px;
+}
+
+button.expl:hover {
+    background-color: #990000;
+    color: #FFFFFF; 
+}
+
+.dbooking {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    height: 100vh; 
+    background-image: url("img/2.png"); 
+    background-size: cover; 
+}
+
+.booking {
+    max-width: 500px; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    text-align: left; 
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.1);
+    max-width: 890px; 
+    padding-bottom: 100px;
+    
+}
+
+.bookingcontent {
+    margin-bottom: 20px; 
+    color: #000000; 
+}
+div h1.bookingcontent{
+    font-size: 50px;
+    width: 900px;
+}
+
+div p.bookingcontent{
+    font-size: 30px;   
+}
+.book {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    margin: 0 auto; 
+    margin-right: 300px;
+}
+button.book:hover {
+    background-color: #ffffff;
+    color: #4CAF50; 
+}
+
+
+.dguide {
+    display: flex;
+    align-items: center; 
+    height: 100vh; 
+    background-image: url("img/3.png"); 
+    background-size: cover; 
+}
+
+.tguide {
+    max-width: 500px;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px; 
+    text-align: left; 
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.1); 
+    max-width: 890px; 
+    padding-bottom: 100px; 
+}
+
+.guide {
+    margin-bottom: 20px; 
+    color: #000000; 
+}
+
+.tguide h1.guide {
+    font-size: 50px;
+    width: 900px;
+}
+
+.tguide p.guide {
+    font-size: 30px; 
+}
+
+button.guide {
+    background-color: #000000;
+    color: #fb5f5f; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-size: 40px;
+    font-weight: bold; 
+    margin-left: 300px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+button.guide:hover {
+    background-color: #ffffff; 
+    color: #ff0000; 
+}
+
+
+div.hddiscover{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.ddiscover {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-image: url("img/4.png"); 
+    background-size: cover; 
+}
+
+
+.tdiscover {
+
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    height: 650px;
+    cursor: pointer; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.tdiscover:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.tdiscover img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.discover {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h1.discover{
+    font-size: 20px;
+}
+button.discover {
+    background-color: #0755d3; 
+    color: #FFFFFF; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-size: 20px; 
+    font-weight: 20px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+button.discover:hover {
+    background-color: #ffffff; 
+    color: #0755d3; 
+}
+
+
+
+
+.dcontact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    height: 100vh; 
+    background-image: url("img/5.png"); 
+    background-size: cover; 
+}
+
+.tcontact {
+    max-width: 500px; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px; 
+    text-align: left; 
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.1); 
+    max-width: 890px; 
+    padding-bottom: 100px; 
+}
+
+.contact {
+    margin-bottom: 20px;
+    color: #000000; 
+}
+
+.tcontact h1.contact {
+    font-size: 50px; 
+    width: 900px; 
+}
+
+.tcontact p.contact {
+    font-size: 30px; 
+}
+
+button.contact {
+    background-color: #4CAF50; 
+    color: #FFFFFF; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-size: 40px; 
+    font-weight: bold; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+button.contact:hover {
+    background-color: #ffffff; 
+    color: #4CAF50; 
+}
+
+.footer {
+    background-color: #6e00ae; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+h4 {
+    color: #ffffff; 
+    font-size: 16px; 
+    margin: 0; 
+}
